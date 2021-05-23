@@ -1,3 +1,5 @@
+# This is a tkinter app for opening your scheduled urls . if you want to use this app just copy the code or clone this repo and in cmd open main.py . It will open a box in which you can save urls.
+
 from constant import *
 import webbrowser
 from time import sleep
@@ -112,31 +114,3 @@ t1.start()
 
 top.mainloop()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# print(type(hour))
-
-# while(1):
-    # local_time = time.localtime()
-    # # print(local_time)
-    # hour = local_time.tm_hour
-    # minute = local_time.tm_min
-    # second = local_time.tm_sec
-#     # print(hour, minute)
-#     if((hour == 20)&(minute==1)&(second==0)):
-#         print('Opening...')
-#         webbrowser.open('https://www.programiz.com/python-programming/time',1,True)
